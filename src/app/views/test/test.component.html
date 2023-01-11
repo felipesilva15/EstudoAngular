@@ -1,0 +1,20 @@
+<p class="cor-fonte">test works! - Variável do componente: {{teste}}</p>
+
+<b>IF</b>
+<br><br>
+<div>
+    <button (click)="exibirFrases(true)">Exibir frases</button>
+    <button (click)="exibirFrases(false)">Não exibir frases</button>
+</div>
+<div *ngIf="exibir">
+    <p>Olá Mundo</p>
+    <p>Testandooooooo!</p>
+</div>
+
+<br><br>
+<b>FOR</b>
+<div>
+    <ul *ngFor="let item of lista; let i = index">
+        <li>{{i}} - {{item}}</li>
+    </ul>
+</div>
