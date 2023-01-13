@@ -1,1 +1,16 @@
-<app-test></app-test>
+<h1>Menu</h1>
+<ul>
+    <li>
+        <a href="/">Home</a>
+    </li>
+    <li>
+        <!-- Funciona tbm para carregar o componte -->
+        <a href="test1">componente: test1 - IF, FOR e SWITCH</a>
+    </li>
+    <li>
+        <!-- Melhor opção, pois, é mais fácil para passar parâmetros para a rota -->
+        <a routerLink="test2">componente: test2 - Consulta de CEP</a>
+    </li>
+</ul>
+
+<router-outlet></router-outlet>

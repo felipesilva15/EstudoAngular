@@ -4,15 +4,30 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './views/test/test.component';
+import { Test2Component } from './views/test2/test2.component';
+
+// Importa as rotas para que tenha todas as funcionalidades disponíveis
+import { RouterModule } from '@angular/router';
+
+// Importa o recurso de comunicação HTTP
+import { HttpClientModule } from "@angular/common/http";
+
+// Importa o ngModel, que é o binding de duas vias
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    TestComponent,
+    Test2Component
   ],
+  // Adicione também aos imports
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

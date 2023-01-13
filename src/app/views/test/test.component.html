@@ -18,3 +18,13 @@
         <li>{{i}} - {{item}}</li>
     </ul>
 </div>
+
+<br><br>
+<b>SWITCH</b>
+<div>
+    <div [ngSwitch]="valorSwitch">
+        <div *ngSwitchCase="'valor1'">Opção 1</div>
+        <div *ngSwitchCase="'valor2'">Opção 2</div>
+        <div *ngSwitchDefault>Valor padrão do Switch</div>
+    </div>
+</div>

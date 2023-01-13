@@ -1,0 +1,24 @@
+<h2>Teste 2 - Consulta de CEP</h2>
+
+<div style="padding-top: 24px;">
+    <form>
+        <label for="cep">CEP: </label>
+        <input type="text" name="cep" [(ngModel)]="cep">
+        <button (click)="consultarCep()">buscar</button>
+    </form>
+</div>
+
+<div *ngIf="objetoCepRetorno && !objetoCepRetorno.erro">
+    <p>
+        <b>Logradouro</b>: {{objetoCepRetorno.logradouro}}
+    </p>
+    <p>
+        <b>Bairro</b>: {{objetoCepRetorno.bairro}}
+    </p>
+    <p>
+        <b>Cidade</b>: {{objetoCepRetorno.localidade}}
+    </p>
+    <p>
+        <b>UF</b>: {{objetoCepRetorno.uf}}
+    </p>
+</div>

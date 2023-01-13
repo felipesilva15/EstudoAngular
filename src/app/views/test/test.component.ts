@@ -11,6 +11,7 @@ export class TestComponent {
   teste: string = 'Hello world';
   exibir: boolean = true;
   lista: Array<string> = [];
+  valorSwitch: string = 'default';
 
   // Executado quando a página é aberta
   ngOnInit(): void{
