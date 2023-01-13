@@ -14,12 +14,14 @@ import { HttpClientModule } from "@angular/common/http";
 
 // Importa o ngModel, que é o binding de duas vias
 import { FormsModule } from "@angular/forms";
+import { Ex01Component } from './views/ex01/ex01.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    Test2Component
+    Test2Component,
+    Ex01Component
   ],
   // Adicione também aos imports
   imports: [
