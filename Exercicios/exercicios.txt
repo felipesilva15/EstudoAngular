@@ -1,0 +1,17 @@
+Vamos colocar um pouco desse conhecimento em prática, utilize todo o conhecimento que passamos e que já possuía para resolver os problemas abaixo:​
+
+1- Crie um novo projeto angular e carregue a página inicial que vem com ele.​
+
+2- Crie um componente que exiba no HTML seu nome e sobrenome, mas essas informações devem vir do .ts.​
+
+3- Crie outro componente que exibe uma imagem por vez variando entre 3 mudando ao clicar em um botão, use o property binding para controlar o src da tag img. Coloque as imagens na pasta assets.​
+
+4- Crie outro componente que tem duas caixas de input numéricos, a soma dos dois valores deve ser exibida em um elemento abaixo das mesmas.​
+
+5- Crie um input que ao digitar um número, exiba em uma label, se o número é par ou ímpar.​
+
+6- Utilize um vetor pré-preenchido para exibir uma lista no HTML.​
+
+7- Crie outro componente que consuma uma API simples, utilizando model e service.​
+
+8- Crie um componente para ser a home dos exercícios, e utilize rota para navegar entre eles.

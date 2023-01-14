@@ -3,8 +3,8 @@
 <div style="padding-top: 4px;">
     <form>
         <label for="cep">CEP: </label>
-        <input type="text" name="cep" [(ngModel)]="cep">
-        <button (click)="consultarCep()">buscar</button>
+        <input class="mx-2" type="text" maxlength="8" name="cep" [(ngModel)]="cep">
+        <button class="btn btn-primary" (click)="consultarCep()">buscar</button>
     </form>
 </div>
 

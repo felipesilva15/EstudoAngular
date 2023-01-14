@@ -1,0 +1,7 @@
+.img{
+    width: 30%;
+    margin: 0;
+    aspect-ratio: 9/9; 
+    object-fit: contain;
+    border: black dotted 1px;
+}
