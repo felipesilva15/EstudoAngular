@@ -14,6 +14,8 @@ export class Ex06Component {
   objPokemonRetorno: pokemonRetorno = new pokemonRetorno();
 
   consultarPokemon(): void{
+    this.objPokemonRetorno = new pokemonRetorno();
+
     this.PokeApiService.requisitarPokemon(this.pokemon.trim().toLowerCase()).subscribe(
       // Deu certo. Popula o objeto
       retornoPokemon => {
