@@ -9,6 +9,8 @@ import { Ex01Component } from './views/ex01/ex01.component';
 import { Ex02Component } from './views/ex02/ex02.component';
 import { Ex03Component } from './views/ex03/ex03.component';
 import { Ex04Component } from './views/ex04/ex04.component';
+import { Ex05Component } from './views/ex05/ex05.component';
+import { Ex06Component } from './views/ex06/ex06.component';
 
 // Adiciona a rota de cada componente
 const routes: Routes = [
@@ -17,7 +19,9 @@ const routes: Routes = [
   {path: 'ex01', component: Ex01Component},
   {path: 'ex02', component: Ex02Component},
   {path: 'ex03', component: Ex03Component},
-  {path: 'ex04', component: Ex04Component}
+  {path: 'ex04', component: Ex04Component},
+  {path: 'ex05', component: Ex05Component},
+  {path: 'ex06', component: Ex06Component}
   
 ];
 
