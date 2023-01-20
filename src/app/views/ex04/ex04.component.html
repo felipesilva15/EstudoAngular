@@ -1,7 +1,18 @@
 <div>
     <h2>Exercício 04</h2>
+    <p class="fw-bold">
+        Crie um input que ao digitar um número, se o número é par ou ímpar em uma label.
+    </p>
+</div>
+<div>
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-5 col-xl-3">
+            <input class="form-control" type="number" (keypress)="parOuImpar()" name="numero" [(ngModel)]="numero">
+        </div>
+    </div>
     <div>
-        <input type="number" (keypress)="parOuImpar()" name="numero" [(ngModel)]="numero">
-        <p class="fw-bold">{{resultado}}</p>
+        <p>
+            {{resultado}}
+        </p>
     </div>
 </div>

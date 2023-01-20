@@ -1,12 +1,17 @@
 <div>
     <h2>Exercício 03</h2>
+    <p class="fw-bold">
+        Crie outro componente que tenha duas caixas de input numéricos. A soma dos dois valores deve ser exibida em um elemento abaixo das mesmas.
+    </p>
+</div>
+<div>
     <div>
         <input type="number" name="n1" value="" [(ngModel)]="n1">
         <span class="fw-bold"> + </span>
         <input class="me-2" type="number" name="n2" value="" [(ngModel)]="n2">
         <button (click)="somar()">Somar</button>
-        <p class="mt-2">
-            <span class="fw-bold">Resultado:</span> {{result}}
-        </p>
     </div>
+    <p class="mt-2">
+        <span class="fw-bold">Resultado:</span> {{result}}
+    </p>
 </div>

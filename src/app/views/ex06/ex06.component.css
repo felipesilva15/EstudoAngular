@@ -1,0 +1,38 @@
+.card-pokemon, .pokemon-id{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.card-pokemon{
+    flex-direction: column;
+    background-color: #212121; 
+    color: #FFFFFF; 
+    aspect-ratio: 8/12; 
+    width: 240px; 
+    padding: 24px; 
+    border-radius: 5%;
+}
+
+.pokemon-name{
+    font-size: 1.25rem;
+}
+
+.pokemon-types{
+    color: #d5d5d5;
+}
+
+.pokemon-id{
+    background-color: #383838; 
+    border-radius: 10%; 
+    aspect-ratio: 4/4; 
+    padding: 4px; 
+    width: 45px;
+}
+
+.pokemon-sprite{
+    border-radius: 50%; 
+    background-color: white; 
+    aspect-ratio: 9/9; 
+    width: 100%;
+}
